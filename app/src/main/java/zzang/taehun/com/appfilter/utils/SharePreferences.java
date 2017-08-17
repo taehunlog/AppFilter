@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+import zzang.taehun.com.appfilter.utils.Constants;
+
 /**
  * Created by taehun on 2017-06-15.
  */

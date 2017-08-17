@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     public void httpCall() {
         RequestQueue queue = Volley.newRequestQueue(this);
 
-        String url = "http://openapi.airkorea.or.kr/openapi/services/rest/MsrstnInfoInqireSvc/getNearbyMsrstnList?tmX=244148.546388&tmY=412423.75772&pageNo=1&numOfRows=10&ServiceKey=yjxbBD8bhhkgxWURpzKvfg4qS88k%2BFznDHef0CskHjcNSogjFB3EWKk6UX0No9aln7J3FsjIa%2B8fElMoc1Xc9Q%3D%3D";
+        String url = "http://openapi.airkorea.or.kr/openapi/services/rest/MsrstnInfoInqireSvc/getNearbyMsrstnList?tmX=244148.546388&tmY=412423.75772&pageNo=1&numOfRows=10&ServiceKey=yjxbBD8bhhkgxWURpzKvfg4qS88k%2BFznDHef0CskHjcNSogjFB3EWKk6UX0No9aln7J3FsjIa%2B8fElMoc1Xc9Q%3D%3D&_returnType=json";
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new com.android.volley.Response.Listener<String>() {
             @Override
             public void onResponse(String response) {

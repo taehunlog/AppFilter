@@ -1,4 +1,4 @@
-package zzang.taehun.com.appfilter.utils.xml;
+package zzang.taehun.com.appfilter.utils;
 
 /**
  * Created by taehun on 2017-06-15.
