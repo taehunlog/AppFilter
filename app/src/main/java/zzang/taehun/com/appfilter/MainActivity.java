@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mPref = new SharePreferences(this);
         data = new ArrayList<>();
+		//
     }
 
     public void callWeb(View view) {
